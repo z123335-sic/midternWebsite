@@ -1,0 +1,48 @@
+.my-gallery {
+  width: 480px;
+  height: 640px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* 根据需要调整 */
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: row; /* 横向布局 */
+  align-items: flex-start; /* 调整对齐方式为顶部对齐 */
+  margin: 20px;
+  width: 100%; /* 根据需要调整 */
+}
+
+.photo-img {
+  width: 300px; /* 或其他尺寸 */
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px; /* 添加圆角 */
+  transition: transform 0.3s ease-in-out; /* 平滑变换效果 */
+}
+
+.photo-img:hover {
+  transform: scale(1.1); /* 图片放大效果 */
+}
+
+.photo-info {
+  flex-grow: 1;
+  text-align: left; /* 确保文本在左侧对齐 */
+}
+@media (max-width: 768px) {
+  .photo-card {
+    flex-direction: column; /* 在小屏幕上改为纵向布局 */
+  }
+
+  .photo-img {
+    margin-right: 0; /* 小屏幕上调整边距 */
+    margin-bottom: 10px; /* 在标题上方留出空间 */
+  }
+}
