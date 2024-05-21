@@ -21,7 +21,12 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
-          <img src="./pictures/Letter R.png" alt="Ryo" width="30" height="24" />
+          <img
+            src="./pictures/icons/Letter R.png"
+            alt="Ryo"
+            width="30"
+            height="24"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -37,14 +42,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="./blogs.html">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Resume</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#contactFooter">Contact</a>
             </li>
@@ -54,34 +61,57 @@
     </nav>
 
     <!-- Self-introduction section -->
-    <section class="p-5">
+    <section class="p-5 centered-content">
       <div class="container">
-        <h1>Welcome to my personal website!</h1>
-        <p>
-          Hello, I'm Ryo. Currently exploring life in Japan as an exchange
-          student. Here you can follow my journey and experiences!
-        </p>
-        <div class="photo-card">
-          <img src="./pictures/gallery_jp1.jpg" alt="Photo of Ryo in Tokyo" class="photo-img">
-          <div class="photo-info">
-            <h3>Japan Adventures</h3>
-            <p>Here is a collection of beautiful scenery I took in Japan.</p>
+        <div class="row photo-gallery">
+          <div class="col-sm-6 col-md-4 col-lg-3 photo-card">
+            <div class="card">
+              <img
+                src="./pictures/friends/friends1.JPG"
+                class="card-img-top photo-img"
+                alt="Amazing Foods"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amazing Foods</h5>
+                <p class="card-text">
+                  Here is a collection of the amazing foods I met in Japan.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="photo-card">
-          <img src="./pictures/gallery_jp2.jpg" alt="Photo of Ryo in Tokyo" class="photo-img">
-          <div class="photo-info">
-            <h3>Amazing foods</h3>
-            <p>Here is a collection of the the amazing foods I meet in Japan.</p>
+          <div class="col-sm-6 col-md-4 col-lg-3 photo-card">
+            <div class="card">
+              <img
+                src="./pictures/friends/friends2.JPG"
+                class="card-img-top photo-img"
+                alt="Tasty Treats"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tasty Treats</h5>
+                <p class="card-text">
+                  Enjoy these delicious treats from my journey.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="photo-card">
-          <img src="./pictures/gallery_jp4.JPG" alt="Photo of Ryo in Tokyo" class="photo-img">
-          <div class="photo-info">
-            <h3>With Friends</h3>
-            <p>Here is a collection of the most adorable friends I took in Japan.</p>
+          <div class="col-sm-6 col-md-4 col-lg-3 photo-card">
+            <div class="card">
+              <img
+                src="./pictures/friends/friends3.JPG"
+                class="card-img-top photo-img"
+                alt="Delicious Meals"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Delicious Meals</h5>
+                <p class="card-text">
+                  Check out these mouth-watering meals I had.
+                </p>
+              </div>
+            </div>
           </div>
+          <!-- 添加更多图片卡片 -->
         </div>
+      </div>
     </section>
 
     <!-- Adding footer with contact information -->
@@ -92,13 +122,25 @@
       /></a> 
     -->
       <a href=""
-        ><img src="./pictures/Twitter icon.png" alt="" width="30" height="30"
+        ><img
+          src="./pictures/icons/Twitter icon.png"
+          alt=""
+          width="30"
+          height="30"
       /></a>
       <a href="https://github.com/yourusername" target="_blank"
-        ><img src="./pictures/Github icon.png" alt="" width="36" height="36"
+        ><img
+          src="./pictures/icons/Github icon.png"
+          alt=""
+          width="36"
+          height="36"
       /></a>
       <a href="mailto:your.email@example.com"
-        ><img src="./pictures/Gmail icon.png" alt="" width="38" height="38"
+        ><img
+          src="./pictures/icons/Gmail icon.png"
+          alt=""
+          width="38"
+          height="38"
       /></a>
     </footer>
   </body>
