@@ -46,3 +46,25 @@
     margin-bottom: 10px;
   }
 }
+
+.photo-gallery-container {
+  display: flex;
+  justify-content: center; /* 使容器水平居中 */
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: center; /* 居中对齐所有卡片 */
+  flex-wrap: wrap-reverse;
+  gap: 20px; /* 卡片间距 */
+  max-width: 1200px; /* 设置最大宽度，防止卡片过多时占据过多空间 */
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
